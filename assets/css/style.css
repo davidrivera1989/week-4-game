@@ -1,0 +1,96 @@
+/* BackGround Image */
+html{
+	background: url("../background.png");
+}
+body{
+	margin-right: 100px;
+	margin-left: 100px; 
+	text-align: center;
+	
+	
+}
+
+/* Name of Game */
+
+h1{
+	font-family: Georgia, Garamond, serif;
+	font-size: 60px;
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 80px;
+}
+
+/*Instructions*/
+
+.Instructions{
+	border: 5px solid white;
+	background: #e8665a;
+	color: black;
+	font-size: 20px;
+	
+}
+
+/*Score Box*/
+
+#Game{
+	margin-right: 15%;
+	width: 200px;
+	float: right;
+	position: relative;
+	background-color: #24f0e9;
+	font-size: 30px;
+	top: 20px;
+	border: 2px solid #eee;
+	clear: both;
+}
+/* Random Number Box */
+
+#RandomNumber{
+	text-align: center;
+	background-color: #24f050;
+	color: #ac24f0;
+	border: 2px solid #eee;
+	position: relative;
+	margin-right: 50%;
+	height: 160px;
+	top: 20px;
+	font-size: 30px;
+}
+
+/* Images Box */
+
+#images{
+	clear: both;
+	text-align: center;
+	background: yellow;
+	border: 2px solid black;
+	width: 800px;
+	height: 50px;
+	
+}
+.points{
+	color: white;
+	background-color: #e04c79;
+	border: 2px solid white;
+	width: 530px;
+	height: 40px;
+}
+
+/* Your Score Box */
+
+#TotalScore{
+	border: 2px solid white;
+	background-color: #e04c79;
+	color: white;
+	clear: both;
+	width: 530px;
+	height: 160px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+
