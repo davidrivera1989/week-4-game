@@ -1,0 +1,23 @@
+<!-- This is my PsedoCode to my Crystal Game/-->
+At the START of the game make sure the "Random Number" gets randomly generated EACH TIME!
+	- This "Random number" gets randomly generated from 19-120.
+	-Also whenever the user wins or losses the game this "Random Number" and "Your Score" gets reset.
+for "Crystals" i need to make the icons "click"-able.
+	- make a function() for each "Crystals".
+	- Give these crystals a random number between 1-12.
+	- once the user wins or losses these "crystals" get reset with different numbers.
+"Total Score" keeps track of what you've clicked and adds the numbers together.
+	-If "totalScore" is less than "random number" keep playing.
+	-If "totalscore" matches "random number" user wins goes up by 1 in "#Game".
+	-else "totalscore" is greater than "Random Number" user losses goes up by 1 in "#Game".
+	-elseif "totalScore" is === or > than "Random Number" game resets.
+<!-- Now to get my hands dirty with JavaScript and Jquery.-->
+
+/*example when using a class with the same name */
+$('.crystal').on('click', function() {
+	/* when clicking on a class */console.log("ive been clicked")
+	/*when clicking on a data-name*/console.log($(this).html());
+
+
+});
+ 

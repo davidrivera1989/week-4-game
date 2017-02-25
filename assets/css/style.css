@@ -1,5 +1,6 @@
 /* BackGround Image */
 html{
+
 	background: url("../background.png");
 }
 body{
@@ -24,18 +25,19 @@ h1{
 /*Instructions*/
 
 .Instructions{
-	border: 5px solid white;
+	border: 2px solid white;
 	background: #e8665a;
 	color: black;
 	font-size: 20px;
 	
 }
 
-/*Score Box*/
+/* Win and Losses Score Box*/
 
 #Game{
-	margin-right: 15%;
+	
 	width: 200px;
+	height: 160px;
 	float: right;
 	position: relative;
 	background-color: #24f0e9;
@@ -55,26 +57,49 @@ h1{
 	margin-right: 50%;
 	height: 160px;
 	top: 20px;
-	font-size: 30px;
+	font-size: 150px;
 }
 
-/* Images Box */
+/* Crystal Boxes */
 
-#images{
+#yellow{
 	clear: both;
 	text-align: center;
-	background: yellow;
-	border: 2px solid black;
-	width: 800px;
-	height: 50px;
-	
+	display: inline;
+	width: 100px;
+	height:100px;	
+}
+#red{
+	clear: both;
+	text-align: center;
+	display: inline;
+	width: 80px;
+	height: 70px;	
+}
+#blue{
+	clear: both;
+	text-align: center;
+	display: inline;
+	width: 80px;
+	height: 70px;	
+}
+#green{
+	clear: both;
+	text-align: center;
+	display: inline;
+	width: 80px;
+	height: 70px;	
 }
 .points{
 	color: white;
 	background-color: #e04c79;
 	border: 2px solid white;
-	width: 530px;
-	height: 40px;
+	height: 20px;
+	position: relative;
+	clear: both;
+	margin-right: 100px;
+	margin-left: 100px; 
+	
 }
 
 /* Your Score Box */
@@ -84,13 +109,9 @@ h1{
 	background-color: #e04c79;
 	color: white;
 	clear: both;
-	width: 530px;
-	height: 160px;
+	height: 150px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 150px;
+	margin-right: 100px;
+	margin-left: 100px; 
 }
-
-
-
-
-

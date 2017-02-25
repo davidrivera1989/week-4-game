@@ -2,10 +2,18 @@
 <html>
 <head>
 	<title>Week 4 Game</title>
-	<!--linking to CSS-->
+	<!-- linking to reset file-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!--linking to style file-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!--linking to JavaScript-->
+	<!--linking to Jquery and JavaScript-->
+	<script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+	
 
 </head>
 <body>
@@ -27,13 +35,27 @@
 		<p>Losses: 0</p>
 	</div>
 	<!-- This box generates the random number-->
-	<div id="RandomNumber">Random Number goes here!
+	<div id="RandomNumber">
 	</div>
 		<br>
 		<br>
-	<!--this div calls the images-->
-	<div id="images">4 images will go here.
+	<!--Here i assign each crystal with an image-->
+	<div class="numbers">
+		<div id="yellow">
+			<img src="assets/images/yellow.png" height="150" width="150">
+		</div>
+		<div id="red">
+			<img src="assets/images/red.png" height="150" width="150">
+		</div>
+		<div id="blue">
+			<img src="assets/images/blue.ico" height="150" width="150">
+		</div>
+		<div id="green">
+			<img src="assets/images/green.png" height="150" width="150">
+		</div>
 	</div>
+
+
 	<!-- this lets user know how many point they have-->
 	<p class="points">Your total score is:</p>
 	<div id="TotalScore">
