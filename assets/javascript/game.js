@@ -57,13 +57,12 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 
 		}
 
-	var html = "<p>Wins:" + wins + "</p>" +
+	var html = "<p>Wins: " + wins + "</p>" +
           "<p>Losses: " + losses + "</p>";
 
           document.querySelector("#Game").innerHTML = html;
     });
 			
-
 	// Red Crystal starts here.
 	$('#red').on('click', function() {
 		var red = redCrystal;
@@ -84,12 +83,11 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 			
 		}
 
-	var html = "<p>Wins:" + wins + "</p>" +
+	var html = "<p>Wins: " + wins + "</p>" +
           "<p>Losses: " + losses + "</p>";
 
           document.querySelector("#Game").innerHTML = html;
     });
-
 
     //Blue crystal start here.
 	$('#blue').on('click', function() {
@@ -110,7 +108,7 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 			
 		}
 		
-	var html = "<p>Wins:" + wins + "</p>" +
+	var html = "<p>Wins: " + wins + "</p>" +
           "<p>Losses: " + losses + "</p>";
 
           document.querySelector("#Game").innerHTML = html;
@@ -135,7 +133,7 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 			
 		}
 
-	var html = "<p>Wins:" + wins + "</p>" +
+	var html = "<p>Wins: " + wins + "</p>" +
           "<p>Losses: " + losses + "</p>";
 
           document.querySelector("#Game").innerHTML = html;

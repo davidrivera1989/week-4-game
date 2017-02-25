@@ -3,6 +3,9 @@ html{
 
 	background: url("../background.png");
 }
+
+/* The body element is the container to my whole page*/
+
 body{
 	margin-right: 100px;
 	margin-left: 100px; 
@@ -11,7 +14,7 @@ body{
 	
 }
 
-/* Name of Game */
+/* Name of Game "Crystals Collector" */
 
 h1{
 	font-family: Georgia, Garamond, serif;
