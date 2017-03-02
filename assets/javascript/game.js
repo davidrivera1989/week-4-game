@@ -47,11 +47,13 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 
 		if (totalScore === randomNumber){
 		wins++;
+		alert("You Won!!! press ok to play again")
 		newGame();
 		resetScore();
 		}
 		else if (totalScore > randomNumber){
 			losses++;
+			alert("You Lost!! press ok to play again")
 			newGame();
 			resetScore();	
 
@@ -72,11 +74,13 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 
 		if (totalScore === randomNumber){
 		wins++;
+		alert("You Won!!! press ok to play again")
 		newGame();
 		resetScore();
 	
 	}
 		else if (totalScore > randomNumber){
+			alert("You Lost!! press ok to play again")
 			losses++;
 			newGame();
 			resetScore();
@@ -97,11 +101,13 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 			console.log(blue)
 
 		if (totalScore === randomNumber){
+		alert("You Won!!! press ok to play again")
 		wins++;
 		newGame();
 		resetScore();
 	}
 		else if (totalScore > randomNumber){
+			alert("You Lost!! press ok to play again")
 			losses++;
 			newGame();
 			resetScore();
@@ -122,11 +128,13 @@ var greenCrystal = Math.floor(Math.random()* 12)+1;
 			console.log(green);
 		
 		if (totalScore === randomNumber){
+		alert("You Won!!! press ok to play again")
 		wins++;
 		newGame();
 		resetScore();
 	}
 		else if (totalScore > randomNumber){
+			alert("You Lost!! press ok to play again")
 			losses++;
 			newGame();
 			resetScore();
